@@ -2,7 +2,7 @@
 <Export generator="Cache" version="25">
   <Document name="rest-template.ZPM">
     <Module>
-      <Name>rest-template</Name>
+      <Name>rest-with-swagger-template</Name>
       <Version>1.0.5</Version>
       <Packaging>module</Packaging>
       <SourcesRoot>src</SourcesRoot>
