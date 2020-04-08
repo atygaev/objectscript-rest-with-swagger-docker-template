@@ -15,6 +15,7 @@ USER irisowner
 
 COPY  Installer.cls .
 COPY  src src
+COPY swagger /usr/irissys/csp/swagger-ui/
 COPY irissession.sh /
 SHELL ["/irissession.sh"]
 

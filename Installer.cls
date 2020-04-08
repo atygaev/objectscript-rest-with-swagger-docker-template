@@ -13,6 +13,8 @@ XData setup
 
       <Import File="${SourceDir}" Flags="ck" Recurse="1"/>
     </Configuration>
+     <CSPApplication Url="/swagger-ui" Directory="${cspdir}swagger-ui"  ServeFiles="1" Recurse="1" MatchRoles=":%DB_${Namespace}" AuthenticationMethods="64"
+    />
   </Namespace>
 
 </Manifest>
